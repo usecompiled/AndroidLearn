@@ -15,11 +15,18 @@
         android:textSize="16sp" />
 
     <Button
+        android:id="@+id/buttons4"
+        android:text="@string/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
         android:id="@+id/buttons3"
         android:text="@string/go"
         android:textSize="16sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
 
     <Button
         android:id="@+id/buttons2"

@@ -6,59 +6,16 @@
     <LinearLayout
         android:id="@+id/ll_content"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonm"
             android:layout_width="100sp"
             android:layout_height="50sp"
             android:text="@string/signin"
             android:textSize="16sp"/>
-        <TextView
-            android:id="@+id/tv_content_cn"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:gravity="center_vertical"
-            android:text="中文:我爱北京天安门"
-            android:textSize="30sp" />
 
-        <TextView
-            android:id="@+id/tv_content_cs"
-
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginTop="10dp"
-            android:gravity="center_vertical"
-            android:text="捷克：Miluji Peking Tiananmen Square"
-            android:textSize="30sp" />
-
-        <TextView
-            android:id="@+id/tv_content_fa"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginTop="10dp"
-            android:gravity="center_vertical"
-            android:text="阿拉伯语：أنا أحب ساحة تيانانمن بكين"
-            android:textSize="30sp" />
-
-        <TextView
-            android:id="@+id/tv_content_us"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginTop="10dp"
-            android:gravity="center_vertical"
-            android:text="英语：I love Beijing Tiananmen Square"
-            android:textSize="30sp" />
-
-        <TextView
-            android:id="@+id/tv_content_ru"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginTop="10dp"
-            android:gravity="center_vertical"
-            android:text="俄罗斯：Я люблю Пекинскую площадь Тяньаньмэнь"
-            android:textSize="30sp" />
 
     </LinearLayout>
 </ScrollView>

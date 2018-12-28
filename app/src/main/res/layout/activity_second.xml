@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SecondActivity">
 
     <Button
-        android:id="@+id/buttonb"
+        android:id="@+id/buttons1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="@string/openbrowser"
-        android:textSize="12dp"
-        android:layout_width="300px"
-        android:layout_height="100px" />
+        android:textSize="16sp" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/buttons3"
+        android:text="@string/go"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttons2"
+        android:text="@string/quit"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
